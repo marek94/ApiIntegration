@@ -1,4 +1,4 @@
-# ApiIntegration using Kotlin, Retrofit, Gson and Dagger2
+# REST API integration using Kotlin, Retrofit, Gson and Dagger2 
 This repository show how to download data from remote source using Retrofit(https://square.github.io/retrofit/), Gson serialization/deserialization library (https://github.com/google/gson)
 and Dagger2(https://dagger.dev/) to dependency injection.
 
