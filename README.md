@@ -23,6 +23,8 @@ val applicationComponent = DaggerApplicationComponent.builder().baseUrl(BASE_URL
 val posts = postsDownloader.download()
 postProcessor.savePostsInFiles(posts, FILE_EXTENSION)
 ```
+---
+
 **Dagger** is configured in the **di** package. Base configuration files are:
 - ApplicationComponent
 ```javascript
