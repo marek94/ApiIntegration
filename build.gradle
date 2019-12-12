@@ -8,6 +8,7 @@ ext {
     kotlin_version = '1.2.20'
     retrofit2_version = '2.7.0'
     gson_version = '2.6.1'
+    dagger_version = '2.17'
 }
 
 group 'org.example'
@@ -25,8 +26,8 @@ dependencies {
     // gson converter
     implementation "com.squareup.retrofit2:converter-gson:$gson_version"
     // dagger
-    api 'com.google.dagger:dagger:2.17'
-    kapt 'com.google.dagger:dagger-compiler:2.17'
+    api "com.google.dagger:dagger:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
 }
 
 compileKotlin {
